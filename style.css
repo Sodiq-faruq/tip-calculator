@@ -118,6 +118,11 @@ input::placeholder {
 }
 
 @media (max-width: 400px) {
+  body{
+    display:flex;
+    justify-content:center;
+    align-item:center;
+  }
   .container {
     margin-top: 20%;
     border-radius: 20px;
